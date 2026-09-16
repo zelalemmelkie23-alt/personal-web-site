@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    body{
+        background-color: #d9dfeb;
+    }
+    .bar{
+        display: flex;
+         background-color: rgb(50, 180, 100);
+        color:#d9dfeb; 
+        padding: 4px;
+
+    }
+        .bar ul{
+            display: flex;
+            gap: 5%; 
+            padding-left: 20%;
+            position: right;
+            padding-left: 20%;
+            padding-top: 20px;
+        }
+    ul li a{text-decoration-line: none;
+        color: white;
+        font-size: 20px;
+
+    }
+ul li{
+    list-style-type: none;
+    text-align: right;
+}
+
+.main{
+    height: 5vh;
+}
+                
+#frm{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  margin-top: 30px;
+    font-weight: bold;
+   
+}
+#text{
+    height: 40px;
+    width: 300px;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    padding: 4px;
+    font-size: 20px;
+}
+#button{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(54, 170, 59);
+    color: white;
+    font-size: 25px;
+}
+image{
+    width: 100%;
+    height: 70px;
+}
+.foot{
+background-color: rgb(99, 100, 100);
+padding: 10px;
+text-align: center;
+color: white;
+
+}
+</style>
+<body>
+    <div class="bar">
+     <h1>zelalem developer</h1>
+      <ul>
+      
+        <li><a  href="indx.html" >home</a></li>
+        <li><a  href="" >aboutus</a></li> 
+         <li><a  href="" >contact</a></li> 
+       <li><a  href="signup.html" style="background-color: rgb(54,80 , 163); padding: 5px; padding-right: 15px; padding-left: 15px;" >signup</a></li> 
+      <li><a  href="login.html" style="background-color: rgb(54,80 , 163); padding: 5px; padding-right: 15px; padding-left: 15px;" >login</a></li> 
+      
+
+     </ul>
+    </div>
+    
+
+    
+    <div id="frm">
+        <h2 style="font-family: 'Times New Roman', Times, serif; color: rgb(54, 163, 59); font-size: 30px;  font-weight: bold;">sign up form</h2>
+        <br>
+        <form action="" method="post">
+            <input type="text" id="text" placeholder="user name" required> <br><br>
+            <input type="email" id="text" placeholder="email" required> <br><BR>
+                <span style="font-weight: normal;">gender</span><BR>
+               <select name="gender" id="text">
+                <option value="male">male</option>
+                <option value="fmale">female</option>
+               </select><BR><BR>
+                <input type="passward" id="text" name="passward" placeholder="passward" required><br><br>
+                <input type="passward" id="text" name="passward" placeholder="retype passward" required><BR><br>
+                <input type="submit" id="button" name="register" value="sign up"><br>
+
+        </form>
+
+ 
+    </div>
+    <div class="main">
+    
+
+    </div>
+<div class="foot">
+    <h2>zelalem developer</h2>
+</div>
+</body>
+</html>

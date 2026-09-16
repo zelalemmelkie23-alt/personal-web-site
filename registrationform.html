@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    body{
+        background-color: #d9dfeb;
+    }
+    .bar{
+        display: flex;
+        background-color: rgb(99, 100, 99);
+        color:#d9dfeb; 
+        padding: 4px;
+
+    }
+    .bar h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+    .bar ul{
+            display: flex;
+            gap: 5%;padding-left: 20%;
+            position: right;
+            padding-left: 20%;
+            padding-top: 20px;
+        }
+    ul li a{text-decoration-line: none;
+        color: white;
+        font-size: 20px;
+
+    }
+ul li{
+    list-style-type: none;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.main{
+    height: 100vh;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.foot{
+background-color: rgb(99, 100, 100);
+padding: 10px;
+text-align: center;
+color: white;
+
+}
+.form-container{
+     max-width: 60%;
+     height: 70vh;
+     background-color: white;
+     padding-left: 5%;
+     padding-top: 20px;
+     margin: 50px auto;
+     border-radius: 8px;
+     box-shadow:0 4px 8px rgb(0,0,alph0.2 ) ;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input, select{
+    width: 20%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+border-color: rgb(176, 173,173);
+margin: 2px;
+}
+label{
+    font-weight: bold;
+
+} 
+input:focus, select:focus, button:focus{
+      border-color: #007bff;
+     outline: none;
+}
+
+button{
+background-color: rgb(54, 163, 59);
+max-width: 15%;
+padding: 5px;
+border:1px solid #ddd ;
+margin: 0;
+border-radius: 8px;
+color: white;
+cursor: pointer;
+height: 35px;
+color: white;
+cursor: pointer; 
+font-family: 'Times New Roman', Times, serif;
+width: 30%;
+}
+button:hover{
+    background-color:#05fc05 ;
+    color: #0a51f5 ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+.id{
+padding-left: 9px;
+#fname{
+    padding-left: 3%;
+}
+#lname{
+    padding-left: 9%;
+}
+#dob{
+    padding-left: 5%;
+}
+#age{
+   padding-left: 9cqh;
+}
+#sex{
+    padding-left:7%;
+}
+#phone{
+    padding-left: 2%;
+}
+.btn{
+    padding-left: 5%;
+
+}
+#department{
+    padding-left: 1%;
+}
+#email{
+   padding-left: 7%; 
+}
+
+
+</style>
+<body>
+    <div class="bar">
+     <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center;">zelalem developer</h1>
+      <ul>
+      
+        <li><a  href="" >home</a></li>
+        <li><a  href="" >aboutus</a></li> 
+         <li><a  href="" >contact</a></li> 
+        
+      <li><a  href="" style="background-color: rgb(54, 163, 59); padding: 5px; padding-right: 15px; padding-left: 15px;" >logout</a></li> 
+      
+
+     </ul>
+    </div>
+    <div class=" form-container">
+        <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center; color: rgb(54, 163, 59);">student registration form</h1>
+        <form action="" method="post"></form>
+        <div class="id">
+            <label for="ID">ID</label>
+<input type="text" id="sid " name="sid">
+        </div>
+<div class="fname">
+    <label for="fname">fname</label>
+    <input type="text" id="fname" name="fname">
+
+</div>
+<div class="lname">
+    <label for="lname">lname</label>
+    <input type="text" id="lname" name="lname">
+
+</div>
+<div class="second">
+<label for="age">age</label>
+    <input type="number" id="age" name="age">
+<label for="sex">sex</label>
+    <input type="text" id="sex" name="sex">
+
+</div>
+<div class="third">
+
+
+<label for="age"> phonen number</label>
+    <input type="tel" id="phone" name="phone">
+<label for="email"> email</label>
+    <input type="email" id="email" name="email">
+
+</div>
+<div class="forth">
+    <label for="department" id="department">select epartment</label>
+    <select name="department" id="department">
+    <option value="">select department</option>
+ <option value="web-development">web-development</option>
+ <option value="graphic-design"> graphic-design</option>
+ <option value="syber-security">syber-security</option>
+ <option value="aero-space">"aero-space</option>
+ <option value="data-scince"> "data-scince</option>
+
+
+</select>
+<label for="dob" id="dob">date of birth</label>
+<input type="date" id="dob" name="birth-date">
+
+<br>
+
+    </div>
+    <Br>
+<div class="btn">
+    <button type="submit" name="register"> register</button>
+<button type="submit" name="update">update</button>
+<button type="submit" name="delete"> delete</button>
+<button type="submit" name="search"> search</button>
+<button type="submit" name="wiew record" > view record</button></button>
+
+</div>
+    </div>
+<div class="foot">
+    <h2>zelalem developer</h2>
+</div>
+</body>
+</html>
